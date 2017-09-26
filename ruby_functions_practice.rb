@@ -22,10 +22,21 @@ def length_of_string(string)
   return string.length
 end
 
-def join_string(string_1, string_2)
+def join_string( string_1, string_2 )
   return string_1 + string_2
 end
 
-def add_string_as_number(string_num_one, string_num_two)
+def add_string_as_number( string_num_one, string_num_two )
   return string_num_one.to_i + string_num_two.to_i
+end
+
+def number_to_full_month_name( num )
+  case num
+  when 1
+     "January"
+  when 2
+     "February"
+  when 3
+     "March"
+  end
 end
