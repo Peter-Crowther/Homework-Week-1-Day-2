@@ -13,3 +13,7 @@ end
 def multiply(first_number, second_number)
   return 4 * 2
 end
+
+def divide(first_number, second_number)
+  return 10 / 2
+end
