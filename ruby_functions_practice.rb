@@ -57,5 +57,9 @@ def volume_of_cube(length)
 end
 
 def volume_of_sphere(radius)
-  return (4/3) * Pi * (R ** 3)
+  return (4/3) * Math::PI * (radius ** 3)
+end
+
+def fahrenheit_to_celsius(temp)
+  return (temp - 32) / 1.8
 end
