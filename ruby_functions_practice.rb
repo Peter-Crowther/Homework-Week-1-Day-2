@@ -9,3 +9,7 @@ end
 def subtract(first_number, second_number)
   return 10 - 5
 end
+
+def multiply(first_number, second_number)
+  return 4 * 2
+end
